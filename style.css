@@ -1,0 +1,135 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+width: 100%;
+height: 44px;
+background: #000b;
+position: sticky;
+top: 0;
+left: 0;
+backdrop-filter: blur(4px);
+}
+.navbar__collection{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 15%;
+list-style: none;
+color: #ddd;
+}
+.navbar__item span{
+    font-size: 12px;
+}
+.title__shop{
+text-align: center;
+padding: 15px 0;
+}
+.title__shop a{
+text-decoration: none;
+color: dodgerblue;
+}
+.banner{
+width: 100%;
+height: 550px;
+text-align: center;
+padding-top: 40px;
+}
+.iphone14Pro{
+background:url(./img/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg) no-repeat center/cover;
+
+color: white;
+}
+.iphone14{
+background: url(./img/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg)no-repeat center/cover;
+}
+.banner h1{
+    font-size: 48px;
+}
+.banner h3{
+font-size: 28px;
+font-weight: 500;
+}
+.banner__links{
+padding-top: 15px;
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+.banner__links a{
+color: dodgerblue;
+text-decoration: none;
+}
+.banner__links a span{
+    font-size: 20px;
+}
+.wrapper{
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+padding: 15px;
+}
+.card{
+width: calc(50% - 7.5px);
+height: 500px;
+text-align: center;
+padding-top: 40px;
+}
+.card h3{
+font-weight: 400;
+}
+.card a{
+text-decoration: none;
+color: dodgerblue;
+}
+.card a:hover{
+text-decoration: underline;
+}
+.tradein{
+background: url(./img/iphone_tradein_promo__d5au3rkw5kuq_large.jpg)no-repeat center/cover;
+}
+.wwdc23{
+    background: url(./img/promo_wwdc23_apple__cgwckch5cjf6_large.jpg)no-repeat center/cover;
+    color: #fff;
+    padding-top: 350px;
+}
+.pride23{
+background: url(./img/promo_pride23__cnpic94fthle_large.jpg)no-repeat center/cover;
+}
+.mpb{
+background: url(./img/promo_mbp__ek7p477bkp6q_large.jpg)no-repeat center/cover;
+color: wheat;
+}
+.Homepod{
+background: url(./img/promo_homepod__f7jnolq94m2y_large_2x.jpg)no-repeat center/cover;
+color: white;
+}
+.sd{
+    background: url(./img/sd.jpg) no-repeat center/cover;
+}
+.li{
+display: flex;
+gap: 20px;
+padding: 0 5%;
+
+}
+.container{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+}
+.ichida{
+width: 20%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
